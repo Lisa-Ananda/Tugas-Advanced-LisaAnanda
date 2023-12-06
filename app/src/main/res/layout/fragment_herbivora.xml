@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/b"
+        android:layout_width="355dp"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="150dp"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        android:layout_marginEnd="29dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b"
+        android:layout_alignTop="@+id/b"
+        android:layout_alignEnd="@+id/b"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="32dp"
+        android:text="Hewan jenis ini adalah jenis hewan pemakan tumbuhan. Hampir semua bagian tumbuhan bisa dimakannya.Seperti, daun, akar, batang, bunga, buah, atau rumput. Hewan ini bisa dikenali dari susunan giginya. Seperti: tidak memiliki giri taring, giginya hanya gigi seri dan geraham untuk mengunyah.
+Contoh hewan herbivora adalah kuda, gajah, sapi, kerbau, kambing, burung merpati, perkutut, dan burung beo.
+" />
+
+</RelativeLayout>

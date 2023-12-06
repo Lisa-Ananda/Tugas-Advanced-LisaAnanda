@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+    <style name="circle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">200px</item>
+    </style>
+</resources>

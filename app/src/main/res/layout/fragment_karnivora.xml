@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="377dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="27dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="355dp"
+        android:layout_alignStart="@+id/c"
+        android:layout_alignTop="@+id/c"
+        android:layout_alignEnd="@+id/c"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="22dp"
+        android:text="Ini adalah jenis hewan pemakan daging. Hewan yang masuk golongan karnivora ini, dikenal sebagai hewan buas.Itu karena mereka memangsa hewan lain untuk dimakan. Hewan ini dikenal juga sebagai hewan bisa bergerak sangat cepat, gigi taringnya tajam, kukunya juga runcing, pandangan matanya, serta penciumannya tajam.Teman-teman, karena mereka sama-sama mencari hewan untuk diburu, biasanya sesama hewan karnivora tidak mau tinggal bersama-sama. Di alam liar mereka punya daerah kekuasaan masing-masing.Walaupun lebih banyak karnivora yang hidup di darat, tetapi ada juga karnivora yang hidup di laut, dan udara.
+Beberapa contoh hewan karnivora: singa, macan, harimau, citah, serigala, ular, komodo, ikan hiu, burung elang, dan burung rajawali.
+" />
+</RelativeLayout>
